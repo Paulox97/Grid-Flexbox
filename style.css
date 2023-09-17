@@ -343,19 +343,20 @@ svg {
 .botoes i {
     position: absolute;
     background-color: #0050fc;
-    width: 60px; /* Reduzi o tamanho do ícone para acomodar o elemento <a> ao lado */
+    width: 60px;
     height: 60px;
 }
 
 .botoes a {
     position: absolute;
-    left: 150px; /* Define a posição horizontal para o elemento <a> */
+    left: 150px;
     height: 60px;
     display: flex;
     align-items: center;
-    padding-left: 10px; /* Espaçamento interno para o texto dentro do elemento <a> */
-    background-color: #fff; /* Adicionei uma cor de fundo para o elemento <a> */
-
+    padding-left: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000000;
 }
 
 .botoes svg {
